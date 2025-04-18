@@ -1,7 +1,8 @@
 from logger import input_data, print_data
 
 def interface():
-    print("Добрый день.Вы попали на специальный бот справочник Гикбрейнс! \n 1 - запись данных  \n 2 - вывод данных")
+    print("Добрый день. ""Это телефонный справочник, разработка DonIgnasio") 
+    \n 1 - запись данных  \n 2 - вывод данных")
     command = int(input("Введите число: "))
 
     while command != 1 and command != 2 :
